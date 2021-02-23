@@ -51,9 +51,11 @@ function Navbar(){
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
+              {/* <CoolButton isSmall isPrimary isRounded >Sign Up</CoolButton>  */}
                 <a className="button is-primary">
                   <strong>Sign up</strong>
                 </a>
+                {/* <CoolButton isSmall isPrimary >Log In</CoolButton>  */}
                 <a className="button is-light">
                   Log in
                 </a>
